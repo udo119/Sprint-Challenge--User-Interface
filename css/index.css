@@ -144,3 +144,37 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.headerabout {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+
+}
+
+.headerabout nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.headerabout nav a {
+    color: black;
+    text-decoration: none;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 22%;
+}
+.about img{
+    padding-bottom: 2%;
+}
+.about p{
+    padding-bottom: 2%;
+}
